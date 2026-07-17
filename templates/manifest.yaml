@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: "{{ .Values.deployment.imageRepo }}:{{ .Values.deployment.imageVersion }}"
+        image: "{{ .Values.deployment.image }}:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
