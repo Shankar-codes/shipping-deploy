@@ -1,0 +1,6 @@
+deployment:
+  image: 367012942501.dkr.ecr.us-east-1.amazonaws.com/roboshop/shipping
+  imageVersion: IMAGE_VERSION
+service:
+  servicePort: 8080
+  
